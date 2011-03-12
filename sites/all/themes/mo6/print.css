@@ -1,0 +1,60 @@
+
+body {
+  margin: 0 2em;
+  line-height: 140%;
+  color: #000;
+}
+
+#sitename,
+#side,
+#comments .box {
+  display: none;
+}
+
+#footer {
+  background: none;
+  position: relative;
+}
+
+#footer p {
+  filter: alpha(opacity = 100);
+  -moz-opacity: 1.0;
+  opacity: 1.0;
+  border: 1px solid #ccc;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  margin-top: 2em;
+  padding: 0.5em;
+}
+
+.breadcrumb {
+  display: none;
+}
+
+ul.primary-links,
+ul.pager,
+ul.links,
+ul.tabs {
+  display: none !important;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Print URL's after links */
+
+a:link:after, 
+a:visited:after {
+  content: " (" attr(href) ") ";
+  font-size: 80%;
+}
+
+h1 {
+  color: #000;
+  background: #fff;
+  filter: alpha(opacity = 100);
+  -moz-opacity: 1.0;
+  opacity: 1.0;
+}

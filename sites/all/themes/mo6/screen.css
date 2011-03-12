@@ -1,0 +1,160 @@
+
+body {
+  background: #fff url(images/bg-gradient.jpg) repeat-x;
+}
+
+#page_wrapper {
+  margin: 5px auto;
+  position: relative;
+  min-height: 650px;
+
+  padding: 100px 150px 120px 20px;
+  width: 600px;
+  background: #f8f8f8 url(images/mo6-druppel.jpg) top center repeat-x;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+#side {
+  position: absolute;
+  top: 10px;
+  left: 625px;
+  width: 236px;
+  padding: 10px;
+  z-index: 2;
+}
+
+/* Footer region */
+
+#footer {
+  margin: 10px 0 0 0;
+  padding: 10px;
+  background: #ccc;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 750px;
+  z-index: 1;
+  background: transparent url(images/mo6-druppel.jpg) bottom center repeat-x;
+}
+
+#footer div.content {
+  background: #fff;
+  filter: alpha(opacity = 70);
+  -moz-opacity: .70;
+  opacity: .70;
+  padding: 5px;
+  margin: 5px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
+#footer p {
+  margin: 0;
+}
+
+/* Pager */
+
+ul.pager {
+  margin: 1em 0;
+  border: 1px solid #ccc;
+  background: #ddd;
+  padding: 0.5em;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
+ul.pager li {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+ul.pager li a {
+  text-decoration: none;
+  padding: 0.5em;
+}
+
+ul.pager li a:hover {
+  background: #fff;
+  color: #06c;
+}
+
+ul.pager li.pager-current {
+  background: #fff;
+  color: #06c;
+  padding: 0.5em !important;
+}
+
+/* Node links block */
+
+ul.links {
+  margin: 1em 1em 1em 0;
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 0.25em;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  width: auto;
+}
+
+ul.links a {
+  text-decoration: none;
+}
+
+ul.links li {
+  border-right: 1px solid #ddd;
+}
+
+ul.links li.last {
+  border-right: none;
+}
+
+/* Tabs */
+
+ul.tabs li a {
+  -moz-border-radius-topleft: 5px;
+  border-top-left-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-right-radius: 5px;
+  padding-top: 0.25em;
+}
+
+/* Primary menu */
+
+ul.primary-links {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  filter: alpha(opacity = 50);
+  -moz-opacity: .50;
+  opacity: .50;
+}
+
+ul.primary-links li a {
+  padding 0.5em;
+}
+
+ul.primary-links li a:hover {
+  text-decoration: underline;
+}
+
+/* Site name */
+
+#sitename {
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+  position: absolute;
+  top: 60px;
+  left: 20px;
+  filter: alpha(opacity = 70);
+  -moz-opacity: .70;
+  opacity: .70;
+}
+
+#sitename a {
+  color: #fff;
+  text-decoration: none;
+}

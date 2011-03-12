@@ -1,0 +1,44 @@
+name = MO6
+description = MO6 theme, tableless, recolorable, two columns, configurable fixed width, configurable header / footer image
+version = VERSION
+core = 7.x
+engine = phptemplate
+stylesheets[all][] = style.css
+stylesheets[screen][] = screen.css
+stylesheets[print][] = print.css
+regions[left] = Left sidebar
+regions[right] = Right sidebar
+regions[content] = Content
+regions[header] = Header
+regions[footer] = Footer
+regions[topcontent] = Top content
+regions[toppage] = Top page
+regions[page_top] = Top page
+regions[page_bottom] = Bottom page
+; features[] = logo
+features[] = name
+features[] = slogan
+; features[] = mission
+features[] = node_user_picture
+features[] = comment_user_picture
+; features[] = search
+features[] = favicon
+features[] = main_menu
+; features[] = secondary_menu
+settings[mo6_breadcrumb] = 0
+settings[mo6_always_breadcrumb] = 0
+settings[mo6_pager_top] = 0
+settings[mo6_compactcomments] = 0
+settings[mo6_use_header] = 0
+settings[mo6_header_path] = ''
+settings[mo6_use_colors] = 0
+settings[mo6_use_sizes] = 0
+settings[mo6_min_height] = 650
+settings[mo6_content_width] = 770
+
+; Information added by drupal.org packaging script on 2011-02-25
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "mo6"
+datestamp = "1298619662"
+

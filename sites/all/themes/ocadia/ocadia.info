@@ -1,0 +1,18 @@
+name = Ocadia
+description = This is a port of the Ocadia Theme for Wordpress made by Beccary (http://beccary.com).
+screenshot = screenshot.png
+core = 7.x
+
+; The following line is the default style sheet in Drupal 6.
+stylesheets[all][] = style.css
+
+; The following is the default javascript in Drupal 6.
+;scripts[] = script.js
+
+
+; Information added by drupal.org packaging script on 2011-02-25
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "ocadia"
+datestamp = "1298619788"
+

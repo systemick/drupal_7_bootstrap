@@ -1,0 +1,47 @@
+
+/* More compact view of Comment Form */
+
+#comment-form {
+  border: 1px solid #f0f0f0;
+  border-right: 2px solid #eee;
+  border-bottom: 2px solid #eee;
+  background: #fff;
+  padding: 1em;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  margin: 1em;
+  position: relative;
+}
+
+#edit-name-wrapper {
+  margin-top: 0;
+}
+
+#edit-homepage-wrapper {
+  width: 8em;
+  top: 0em;
+  left: 25em;
+  position: absolute;
+}
+
+#edit-homepage-wrapper,
+#edit-homepage {
+  color: #777;
+}
+
+#comment-form .form-actions {
+  margin-bottom: 0;
+}
+
+#comment-form input.form-text,
+#comment-form textarea,
+#comment-form input {
+  margin: 0;
+}
+
+/* Remove tips and formating options from Comment Form for anonymous users */
+
+#comment-form p a,
+#comment-form ul.tips {
+  display: none;
+}
